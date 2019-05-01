@@ -1,26 +1,37 @@
-# portfolio19
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+Repository for my [portfolio website](https://emilcarlsson.se) built with [Vue](https://cli.vuejs.org/).
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Build Setup
 
-### Compiles and minifies for production
-```
-npm run build
-```
+```bash
+# Install dependencies
+$ npm install
 
-### Run your tests
-```
-npm run test
+# Compiles and hot-reloads for development
+$ npm run serve
+
+# Compiles and minifies for production
+$ npm run build
+
+# Builds and deploys to remote server (.env required)
+$ npm run deploy
 ```
 
-### Lints and fixes files
+## Deployment
+
+Deployment is handled using [ftp-deploy](https://github.com/simonh1000/ftp-deploy), see [`deploy.js`](https://github.com/carlssonemil/portfolio19/blob/master/deploy.js) for deployment code.
+
+### Deployment Variables
+
+```bash
+# .env
+
+FTP_USER = FTP Username
+FTP_PASS = FTP Password
+FTP_HOST = FTP Host
+FTP_PORT = FTP Port
+SITE_URL = The website URL (optional)
 ```
-npm run lint
-```
+
+> See [`.env.example`](https://github.com/carlssonemil/portfolio19/blob/master/.env.example) for example.
