@@ -1,0 +1,39 @@
+// Primary Color
+$primary-color: #2ecc71;
+
+// Font Color
+$font-color: #2c3e50;
+
+// Font Stack
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Breakpoints
+$breakpoints: (
+  tablet: 768px,
+  laptop: 1025px,
+  desktop: 1281px
+);
+
+
+// Media Query Mixins
+
+// Tablet mixin
+@mixin tablet {
+  @media (min-width: #{ map-get($breakpoints, tablet) }) {
+    @content;
+  }
+}
+
+// Laptop mixin
+@mixin laptop {
+  @media (min-width: #{ map-get($breakpoints, laptop) }) {
+    @content;
+  }
+}
+
+// Desktop mixin
+@mixin desktop {
+  @media (min-width: #{ map-get($breakpoints, desktop) }) {
+    @content;
+  }
+}
