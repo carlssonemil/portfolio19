@@ -16,16 +16,16 @@
 
       <footer>
         <nav>
-          <a href="https://github.com/carlssonemil" class="social-media-link">
+          <a href="https://github.com/carlssonemil" class="social-media-link" aria-label="Find me on GitHub">
             <font-awesome-icon :icon="['fab', 'github']" />
           </a>
-          <a href="https://dribbble.com/emilcarlsson" class="social-media-link">
+          <a href="https://dribbble.com/emilcarlsson" class="social-media-link" aria-label="Find me on Dribbble">
             <font-awesome-icon :icon="['fab', 'dribbble']" />
           </a>
-          <a href="https://codepen.io/emilcarlsson" class="social-media-link">
+          <a href="https://codepen.io/emilcarlsson" class="social-media-link" aria-label="Find me on CodePen">
             <font-awesome-icon :icon="['fab', 'codepen']" />
           </a>
-          <a href="https://www.linkedin.com/in/carlssonemil/" class="social-media-link">
+          <a href="https://www.linkedin.com/in/carlssonemil/" class="social-media-link" aria-label="Find me on LinkedIn">
             <font-awesome-icon :icon="['fab', 'linkedin-in']" />
           </a>
         </nav>
