@@ -210,14 +210,14 @@ footer {
 }
 
 .fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+  transition: opacity 1s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
 
 .fade-up-enter-active, .fade-up-leave-active {
-  transition: .5s;
+  transition: 1s;
 }
 .fade-up-enter, .fade-up-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
