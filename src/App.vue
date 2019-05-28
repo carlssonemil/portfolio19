@@ -215,4 +215,12 @@ footer {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
+
+.fade-up-enter-active, .fade-up-leave-active {
+  transition: .5s;
+}
+.fade-up-enter, .fade-up-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateY(15%);
+}
 </style>

@@ -1,20 +1,31 @@
 <template>
-  <div id="projects" v-if="projects">
-    <a v-for="project in projects" :href="project.url" :key="project.title" class="project">
-      <p class="type">{{ project.type }}</p>
-      <h3 class="title">{{ project.title }}</h3>
-      <p class="description">{{ project.description }}</p>
-    </a>
-  </div>
+  <transition name="fade-up">
+    <div id="projects" v-if="show">
+      <a v-for="project in projects" :href="project.url" :key="project.title" class="project">
+        <p class="type">{{ project.type }}</p>
+        <h3 class="title">{{ project.title }}</h3>
+        <p class="description">{{ project.description }}</p>
+      </a>
+    </div>
+  </transition>
 </template>
 
 <script>
+import { setTimeout } from 'timers';
 export default {
   name: 'Projects',
+  data() {
+    return {
+      show: false
+    }
+  },
   computed: {
     projects() {
       return this.$store.state.projects;
     }
+  },
+  mounted() {
+    if (this.projects) setTimeout(() => this.show = true, 500);
   }
 }
 </script>
