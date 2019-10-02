@@ -20,18 +20,18 @@ export default {
 @import '@/scss/variables.scss';
 
 h1 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
   margin: 25px 0 25px;
 
   @include tablet {
-    font-size: 28px;
+    font-size: 36px;
     margin: 25px 0 50px;
     max-width: 880px;
   }
 
   @include desktop {
-    font-size: 36px;
+    font-size: 40px;
     margin: 50px 0 100px;
     max-width: 880px;
 
