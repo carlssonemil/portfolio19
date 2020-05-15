@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Hi, I'm a front-end developer currently working in e-health with the awesome people at <a href="https://www.evry.com/en/">Evry</a>.</h1>
+    <h1>Hi, I'm a front-end developer currently working in e-health with the awesome people at <a href="https://www.tietoevry.com/">TietoEVRY</a>.</h1>
     <Projects />
   </div>
 </template>
