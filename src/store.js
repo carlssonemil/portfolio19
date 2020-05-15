@@ -10,6 +10,18 @@ export default new Vuex.Store({
      */
     projects: [
       {
+        title: "Blabber",
+        type: "Website",
+        description: "Anonymous real-time chat application",
+        url: "https://blabber-application.herokuapp.com/"
+      },
+      {
+        title: "Flipart",
+        type: "Website",
+        description: "Portfolio for the production company Flipart.",
+        url: "https://flipart.se/"
+      },
+      {
         title: "Quotes New Tab",
         type: "Chrome Extension",
         description: "A new motivational quote in every new tab.",
