@@ -68,6 +68,7 @@ export default {
 
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import '@/scss/reset.scss';
 @import '@/scss/variables.scss';
 
