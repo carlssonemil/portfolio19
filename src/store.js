@@ -10,6 +10,12 @@ export default new Vuex.Store({
      */
     projects: [
       {
+        title: "Damascus",
+        type: "Website",
+        description: "Simple, lightweight & intuitive camouflage tracker",
+        url: "https://damascus.now.sh/"
+      },
+      {
         title: "Blabber",
         type: "Website",
         description: "Anonymous real-time chat application",
