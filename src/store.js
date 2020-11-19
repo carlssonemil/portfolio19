@@ -10,9 +10,15 @@ export default new Vuex.Store({
      */
     projects: [
       {
-        title: "Damascus",
+        title: "Cold War",
         type: "Website",
         description: "Simple, lightweight & intuitive camouflage tracker",
+        url: "https://damascus.now.sh/"
+      },
+      {
+        title: "Damascus",
+        type: "Website",
+        description: "Simple, lightweight & intuitive completionist tracker",
         url: "https://damascus.now.sh/"
       },
       {
@@ -50,12 +56,6 @@ export default new Vuex.Store({
         type: "Website",
         description: "Search for your favorite artist and song to get the lyrics.",
         url: "https://lyrics.emilcarlsson.se/"
-      }, 
-      {
-        title: "Striker",
-        type: "Discord Bot",
-        description: "A strike bot for Discord.",
-        url: "https://github.com/carlssonemil/Striker"
       }
     ],
 
