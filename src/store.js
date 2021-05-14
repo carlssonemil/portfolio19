@@ -13,13 +13,13 @@ export default new Vuex.Store({
         title: "Cold War",
         type: "Website",
         description: "Simple, lightweight & intuitive camouflage tracker",
-        url: "https://damascus.now.sh/"
+        url: "https://coldwar.vercel.app/"
       },
       {
         title: "Damascus",
         type: "Website",
         description: "Simple, lightweight & intuitive completionist tracker",
-        url: "https://damascus.now.sh/"
+        url: "https://damascus.vercel.app/"
       },
       {
         title: "Blabber",
