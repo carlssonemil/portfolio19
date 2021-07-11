@@ -25,7 +25,7 @@ export default new Vuex.Store({
         title: "Blabber",
         type: "Website",
         description: "Anonymous real-time chat application",
-        url: "https://blabber-application.herokuapp.com/"
+        url: "https://blabber.vercel.app/"
       },
       {
         title: "Flipart",
