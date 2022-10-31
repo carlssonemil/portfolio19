@@ -10,21 +10,27 @@ export default new Vuex.Store({
      */
     projects: [
       {
+        title: "Orion",
+        type: "Website",
+        description: "Call of Duty: Modern Warfare 2 camouflage tracker",
+        url: "https://orion.emca.app/"
+      },
+      {
         title: "Vanguard",
         type: "Website",
-        description: "Yet another; Simple, lightweight & intuitive camouflage tracker",
+        description: "Call of Duty: Vanguard camouflage tracker",
         url: "https://vanguard.emca.app/"
       },
       {
         title: "Cold War",
         type: "Website",
-        description: "Simple, lightweight & intuitive camouflage tracker",
+        description: "Call of Duty: Cold War camouflage tracker",
         url: "https://coldwar.vercel.app/"
       },
       {
         title: "Damascus",
         type: "Website",
-        description: "Simple, lightweight & intuitive completionist tracker",
+        description: "Call of Duty: Modern Warfare camouflage tracker",
         url: "https://damascus.vercel.app/"
       },
       {
