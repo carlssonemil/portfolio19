@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Hi, I'm a front-end developer currently working in e-health with the awesome people at <a href="https://www.tietoevry.com/">TietoEVRY</a>.</h1>
+    <h1>Hey, I'm Emil — a front-end developer currently working at <a href="https://boardeaser.com/en/">Boardeaser</a>, where we simplify the everyday life for boards and executives.</h1>
     <Projects />
   </div>
 </template>
@@ -27,13 +27,13 @@ h1 {
   @include tablet {
     font-size: 36px;
     margin: 25px 0 50px;
-    max-width: 880px;
+    max-width: 1200px;
   }
 
   @include desktop {
     font-size: 40px;
     margin: 50px 0 100px;
-    max-width: 880px;
+    max-width: 1200px;
 
     a:not([class]) {
       border-width: 3px;
